@@ -26,7 +26,7 @@ UPDATE_PACKAGE "design" "0x676e67/luci-theme-design" "$([[ $WRT_REPO == *"lede"*
 UPDATE_PACKAGE "kucat" "sirpdboy/luci-theme-kucat" "$([[ $WRT_REPO == *"lede"* ]] && echo "main" || echo "js")"
 
 UPDATE_PACKAGE "advancedplus" "VIKINGYFY/luci-app-advancedplus" "main"
-
+UPDATE_PACKAGE "luci-app-tailscale" "asvow/luci-app-tailscale" "main"
 
 if [[ $WRT_REPO != *"lede"* ]]; then
 	UPDATE_PACKAGE "homeproxy" "VIKINGYFY/homeproxy" "main"
@@ -74,3 +74,4 @@ UPDATE_VERSION() {
 
 #UPDATE_VERSION "软件包名" "测试版，true，可选，默认为否"
 UPDATE_VERSION "sing-box" "true"
+UPDATE_VERSION "tailscale"
