@@ -12,6 +12,7 @@ rm -rf feeds/packages/net/{minieap}
 #rm -rf feeds/packages/net/{alist,adguardhome,mosdns,xray*,v2ray-core,v2raya,sing*,smartdns,openclash,homeproxy,serverchan,ikoolproxy,qbittorrent,pdnsd-alt}
 #cp -rf feeds/smpackage/{alist,adguardhome,mosdns,xray*,v2ray-core,v2raya,sing*,smartdns,openclash,homeproxy,serverchan,ikoolproxy,qbittorrent,pdnsd-alt} feeds/packages/net/
 
+rm -rf feeds/smpackage/applications/homeproxy
 rm -rf feeds/smpackage/applications/*homeproxy
 ./scripts/feeds install wrtbwmon
 ./scripts/feeds install -a  
