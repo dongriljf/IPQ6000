@@ -113,10 +113,10 @@ CONFIG_PACKAGE_luci-app-natter2=y
 
 
 
-CONFIG_PACKAGE_luci-app-iptvhelper=y
-CONFIG_PACKAGE_luci-app-udpxy=y
-CONFIG_PACKAGE_luci-app-xteve=y
-CONFIG_PACKAGE_luci-app-lucky=y
+#CONFIG_PACKAGE_luci-app-iptvhelper=y
+#CONFIG_PACKAGE_luci-app-udpxy=y
+#CONFIG_PACKAGE_luci-app-xteve=y
+#CONFIG_PACKAGE_luci-app-lucky=y
 
 #CONFIG_PACKAGE_luci-app-minieap=y
 #CONFIG_PACKAGE_luci-app-apinger=y
