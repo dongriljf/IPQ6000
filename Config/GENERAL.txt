@@ -105,27 +105,26 @@ CONFIG_PACKAGE_luci-app-tailscale=y
 
 
 CONFIG_PACKAGE_luci-app-dnsfilter=y
-#CONFIG_PACKAGE_luci-app-uhttpd=y
-#
-#CONFIG_PACKAGE_luci-app-gost=y
-#
-#
-#CONFIG_PACKAGE_luci-app-iptvhelper=y
-#CONFIG_PACKAGE_luci-app-udpxy=y
-#CONFIG_PACKAGE_luci-app-xteve=y
-#CONFIG_PACKAGE_luci-app-lucky=y
-#
-#CONFIG_PACKAGE_luci-app-minieap=y
-#CONFIG_PACKAGE_luci-app-apinger=y
-#CONFIG_PACKAGE_luci-app-iperf3-server=y
-#CONFIG_PACKAGE_luci-app-natter=y
-#CONFIG_PACKAGE_luci-app-natter2=y
+CONFIG_PACKAGE_luci-app-uhttpd=y
+CONFIG_PACKAGE_luci-app-natter2=y 
+CONFIG_PACKAGE_luci-app-apinger=y
+CONFIG_PACKAGE_luci-app-iperf3-server=y
+CONFIG_PACKAGE_luci-app-gost=y
 
-#CONFIG_PACKAGE_luci-app-udp2raw=y
+CONFIG_PACKAGE_luci-app-lucky=y
+
+
+CONFIG_PACKAGE_luci-app-iptvhelper=y
+CONFIG_PACKAGE_luci-app-udpxy=y
+CONFIG_PACKAGE_luci-app-xteve=y
+
 
 #CONFIG_PACKAGE_luci-app-minidlna=y
 #CONFIG_PACKAGE_luci-app-mjpg-streamer=y
 
+
+#CONFIG_PACKAGE_luci-app-udp2raw=y
+#CONFIG_PACKAGE_luci-app-minieap=y
 
 #删除插件
 CONFIG_PACKAGE_luci-app-wol=n
