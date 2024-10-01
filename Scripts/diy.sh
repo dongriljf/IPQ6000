@@ -7,6 +7,8 @@ rm -rf feeds/smpackage/{base-files,dnsmasq,firewall*,fullconenat,libnftnl,nftabl
 rm -rf feeds/luci/applications/luci-app-minieap
 cp -rf feeds/smpackage/luci-app-minieap   feeds/luci/applications/
 rm -rf feeds/packages/net/{minieap}
+rm -rf feeds/packages/lang/golang
+git clone https://github.com/kenzok8/golang feeds/packages/lang/golang
 #cp -rf feeds/smpackage/luci-app-openclash   feeds/luci/applications/luci-app-openclash
 #rm -rf feeds/luci/applications/{*-adguardhome,*-bypass,*-homeproxy,*-passwall*,*-ssr-plus,*-mosdns,*-smartdns,*-serverchan,*-ikoolproxy,*-qbittorrent}
 #rm -rf feeds/packages/net/{alist,adguardhome,mosdns,xray*,v2ray-core,v2raya,sing*,smartdns,openclash,homeproxy,serverchan,ikoolproxy,qbittorrent,pdnsd-alt}
